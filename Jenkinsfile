@@ -13,7 +13,20 @@ pipeline {
              }
        }
 
-     }
+ stages {
+
+         stage ('store to S3') {
+          steps {
+                script {
+                    // Assuming you have AWS CLI installed and configured on your Jenkins instance
+                    sh 'aws s3 cp . s3://your-s3-bucket-name/ --recursive'
+                }
+            }
+        }
+    }
+}
+        
+           
       
         
 
