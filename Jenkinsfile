@@ -11,9 +11,7 @@ pipeline {
                   }
 
              }
-       }
-
- stages {
+       
 
          stage ('store to S3') {
           steps {
