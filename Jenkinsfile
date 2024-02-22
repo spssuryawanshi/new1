@@ -1,12 +1,12 @@
-pipline{
+pipeline {
 
  agent any
 
-     stages{
+     stages {
 
          stage (git fetch) {
         
-           steps{
+           steps {
                  git branch: 'main', url: 'https://github.com/spssuryawanshi/new1.git'
                   }
 
