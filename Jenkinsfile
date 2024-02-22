@@ -17,7 +17,7 @@ pipeline {
           steps {
                 script {
                     // Assuming you have AWS CLI installed and configured on your Jenkins instance
-                    sh 'aws s3 cp . s3://mubucket2463/ --recursive'
+                    sh 'aws s3 cp . s3://mybucket2463/ --recursive'
                 }
             }
         }
