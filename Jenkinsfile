@@ -10,7 +10,8 @@ pipline{
                  git branch: 'main', url: 'https://github.com/spssuryawanshi/new1.git'
                   }
 
-            }
+             }
+       }
 
      }
       
